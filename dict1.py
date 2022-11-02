@@ -1,0 +1,9 @@
+dict1={'name':'arjun','age':23,'place':'kunnamthanam',}
+print(dict1)
+dict2=dict1.copy()
+print(dict2)
+print("values=",dict1.values())
+print("keys=",dict1.keys())
+dict3={'adhaar':'112233456678'}
+dict1.update(dict3)
+print(dict1)
